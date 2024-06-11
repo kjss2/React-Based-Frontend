@@ -1,0 +1,27 @@
+.login {
+  background-color: black;
+  color: white;
+
+  text-align: center;
+
+  width: 360px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+
+  border-radius: 8px;
+}
+
+.coupon {
+  color: #0078ff;
+}
+
+.register {
+  color: #0078ff;
+  background-color: white;
+  border: 1px solid #0078ff;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-radius: 8px;
+  padding-left: 8px;
+  padding-right: 8px;
+}

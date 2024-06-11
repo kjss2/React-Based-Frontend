@@ -1,0 +1,20 @@
+/* css파일 style 담당일찐
+대상{
+    style에 넣었던 문법들 넣으면 됨
+} */
+
+
+h1{
+    color: blueviolet;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+/* ###################################################################### */
+a{
+    color: blue;
+    font-size: 20px;
+}
+/* ###################################################################### */
+button{
+    color:red;
+}

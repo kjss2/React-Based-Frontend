@@ -1,0 +1,54 @@
+.box {
+  border: 1px solid black;
+  width: 1000px;
+  height: 500 px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.box > div {
+  display: flex;
+  justify-content: center;
+}
+
+.mom {
+  display: flex;
+  gap: 10px;
+}
+
+.son > span {
+  flex: 1;
+}
+.aa {
+  color: aqua;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.bb1 {
+  font-size: 40px;
+}
+.bb2 {
+  font-size: 40px;
+  padding-bottom: 50px;
+}
+.cc1 {
+  color: grey;
+}
+.cc2 {
+  color: grey;
+  padding-bottom: 70px;
+}
+.aaa1 {
+  font-size: 15;
+}
+.aaa2 {
+  font-size: 25;
+}
+.son {
+  border: 1px solid black;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+}

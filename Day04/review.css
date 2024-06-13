@@ -1,0 +1,60 @@
+.mom {
+  /* 가장 큰 박스 */
+  width: 1000px;
+  height: 1000px;
+  border: 1px solid black;
+  display: flex;
+  margin: 0 auto;
+}
+.mom1 {
+  /* 중간 박스 */
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.mom1 > div {
+  /* 작은 박스 */
+  flex: 1;
+}
+.mom2 > div {
+  /* 작은 박스 */
+  flex: 1;
+}
+
+.son1 {
+  background-color: aqua;
+}
+.son2 {
+  background-color: azure;
+}
+.son3 {
+  background-color: aquamarine;
+}
+.son4 {
+  background-color: blue;
+}
+.son5 {
+  background-color: green;
+}
+.son6 {
+  background-color: blueviolet;
+}
+.son7 {
+  background-color: brown;
+}
+.son8 {
+  background-color: red;
+}
+
+.aa {
+  border: 1px solid red;
+  /* 4개 top right bottom left */
+  /* 2개 top bottom / left right*/
+  /* 1개 all */
+  padding: 10px 20px 10px 20px;
+}
+.bb {
+  /* 간격 차이 조정 */
+  margin-left: 150px;
+}

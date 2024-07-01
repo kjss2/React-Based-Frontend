@@ -1,0 +1,62 @@
+.main {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZKL6a_9ImPwLK1fh9NtxD84J2wuUbmQ4cbQ&s);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 1300px;
+  height: 1080px;
+  margin: 0 auto;
+}
+.box1 {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.box1 > span {
+  color: white;
+  background-color: black;
+  font-size: 20px;
+  padding: 15px;
+  border-radius: 30px;
+}
+
+.box2 {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  margin-left: 80px;
+}
+.box2 > span {
+  font-weight: bold;
+  font-size: 50px;
+  margin: 3px;
+  padding-bottom: 10px;
+}
+.box2 > div {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 3px;
+}
+.box3 {
+  display: flex;
+  margin-top: 60px;
+  margin-left: 80px;
+  color: white;
+  font-size: 20px;
+  gap: 20px;
+}
+.box3 > div {
+  background-color: gray;
+  padding: 20px;
+  border: 1px solid white;
+  border-radius: 50px;
+}
+.google > i {
+  font-size: 30px;
+}
+.apple > i {
+  font-size: 30px;
+}

@@ -1,0 +1,71 @@
+.img {
+  border: 1px solid black;
+  width: 100vw;
+  height: 100vh;
+  max-height: 700px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(https://joshua-legend.github.io/responsive_web/images/p-images/slide01.jpg);
+}
+
+.b2 {
+  margin: 80px 400px;
+  display: flex;
+  align-items: center;
+  gap: 300px;
+}
+.b2_1 {
+  color: rgb(69, 81, 181);
+  font-size: 40px;
+}
+.b2_2 {
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid rgb(200, 200, 200);
+  border-radius: 3px;
+  gap: 5px;
+  font-size: 15px;
+}
+.b3 {
+  font-size: 13px;
+  margin: 80px 400px;
+  /* width: 100vw; */
+  display: flex;
+  align-items: center;
+}
+.box {
+  gap: 13px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.b3_1 {
+  gap: 30px;
+
+  color: rgb(69, 81, 181);
+}
+@media screen and (max-width: 768px) {
+  .img {
+    max-width: 800px;
+    max-height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .b2 {
+    width: 100%;
+    max-width: 260px;
+    margin: 30px 200px;
+    gap: 100px;
+  }
+  .b2_1 {
+    color: rgb(69, 81, 181);
+    font-size: 20px;
+  }
+  .b2_2 {
+    border-radius: 3px;
+    gap: 5px;
+    font-size: 8px;
+  }
+}

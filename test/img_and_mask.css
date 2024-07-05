@@ -1,0 +1,48 @@
+.c1 {
+  width: 100vw;
+}
+.fonts {
+  font-size: 40px;
+  color: rgb(69, 81, 181);
+  margin-left: 400px;
+  padding-bottom: 200px;
+  /* background-color: black; */
+}
+.c_top {
+  width: 100vw;
+
+  display: flex;
+}
+.imgbox > img {
+  width: 100vw;
+  max-width: 100%;
+}
+.c_bottom {
+  display: flex;
+}
+.test {
+  display: flex;
+
+  position: relative;
+}
+.mask {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  color: white;
+  gap: 8px;
+  top: 0px;
+  opacity: 0;
+  background-color: rgba(76, 0, 255, 0.2);
+  transition: all 0.3;
+}
+.mask_text_1 {
+  margin-top: 30px;
+  font-size: 30px;
+}
+.test:hover .mask {
+  opacity: 1;
+  padding-left: 40px;
+}

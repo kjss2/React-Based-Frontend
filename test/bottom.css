@@ -1,0 +1,36 @@
+.d1 {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  align-items: center;
+}
+.d1_etc {
+  color: rgb(69, 81, 181);
+  font-size: 40px;
+}
+.d1_etc2 {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.h1 {
+  color: rgb(69, 81, 181);
+  font-size: 40px;
+  margin-right: 80px;
+}
+.d1_box {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.d1_img_and_text {
+  display: flex;
+  flex-direction: column;
+}
+.d_head {
+  color: gray;
+  font-size: 8px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

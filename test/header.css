@@ -1,0 +1,36 @@
+header {
+  width: 100vw;
+  position: fixed;
+  z-index: 1;
+  background-color: white;
+}
+nav {
+  width: 100%;
+  color: rgb(69, 81, 181);
+  padding: 20px 20px;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+.a1 {
+  font-size: 30px;
+}
+.a2s {
+  font-size: 20px;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+  nav {
+    max-width: 800px;
+    max-height: 700px;
+  }
+  .a1 {
+    font-size: 20px;
+  }
+  .a2s {
+    font-size: 14px;
+    gap: 10px;
+  }
+}

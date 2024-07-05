@@ -1,9 +1,0 @@
-.img{
-    border: 1px solid black;
-    width: 100vw;
-    height: 100vh;
-    max-height: 700px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url(https://joshua-legend.github.io/responsive_web/images/p-images/slide01.jpg);
-}
